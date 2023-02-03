@@ -4,6 +4,17 @@ This repository is designed to help us test Etcher on EtcherPro functionalities 
 
 This should be run on a computer attached to an EtcherPro running the latest release in the EtcherPro flowzone deployment automatic tests.
 
+## Requirements
+
+For this project to work, you need to run EtcherPro software `v1.3.4` or above.
+
+## Dependencies
+
+This project relies on `Playwright` with electon Chrome Debugging Port capability.
+At the time of creating this project, this only exists in an [unmerged branch](https://github.com/ZFail/playwright/tree/electron-connect-over-cdp).
+
+These dependencies have been included in the [deps](./deps/) folder for ease of use.
+
 ## Setting up
 
 ### Installing dependencies
