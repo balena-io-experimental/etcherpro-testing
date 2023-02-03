@@ -1,0 +1,18 @@
+{
+  "name": "etcherpro-testing",
+  "version": "0.1.0",
+  "description": "Etcher pro automated testing framework for EtcherPro continuous integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "keywords": ["automatic testing", "etcherpro", "electron", "playwright"],
+  "author": "Balena, LTD <hello@balena.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "playwright-internal": "./deps/playwright-internal-1.30.0-next.tgz",
+    "@playwright/test": "./deps/playwright-test-1.30.0-next.tgz",
+    "playwright-core": "./deps/playwright-core-1.30.0-next.tgz"
+  }
+}
